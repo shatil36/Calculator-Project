@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator</title>
+    <style>
+        h1{
+            text-align: center;
+            text-shadow: 12px 12px 3px azure;
+            color: navy;
+            width: 350px;
+            height: 80px;
+            margin: 0 auto;
+            padding: 15px;
+            background-color: orange;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        h1:hover{
+            text-shadow: 12px 12px 3px orange;
+            color: blue;
+            background-color: whitesmoke;
+        }
+        .calc{
+            max-width: 350px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 20px;
+            box-shadow: 0px 4px 5px 0px rgb(9, 56, 145);
+            opacity: 0.8;
+            font-size: 0;
+        }
+        .calc:hover{
+            box-shadow: 0px 15px 20px 0px rgb(92, 150, 226);
+            opacity: 1.0;
+        }
+        .calc-header .calc-input{
+            width: 335px;
+            height: 100px;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-size: 35px;
+            font-weight: bold;
+            padding: 0px 10px;
+            text-align: right;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+        .calc-body{
+            border-radius: 5px;
+        }
+        .btn{
+            width: 87px;
+            height: 70px;
+            background-color: aquamarine;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 5px; 
+        }
+        .btn-style{
+            background-color: seagreen;
+
+        }
+        .btn:hover{
+            background-color: black;
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Calculator Design</h1>
+    <div class="calc">
+
+        <div class="calc-header">
+            <input class="calc-input" type="text" maxlength="10">
+        </div>  
+
+        <div class="calc-body">
+            <div>
+                <input class="btn" type="button" value="C">
+                <input class="btn" type="button" value="+/-">
+                <input class="btn" type="button" value="%">
+                <input class="btn btn-style" type="button" value="/">
+            </div>
+
+            <div>
+                <input class="btn" type="button" value="7">
+                <input class="btn" type="button" value="8">
+                <input class="btn" type="button" value="9">
+                <input class="btn btn-style" type="button" value="x">
+            </div>
+
+            <div>
+                <input class="btn" type="button" value="4">
+                <input class="btn" type="button" value="5">
+                <input class="btn" type="button" value="6">
+                <input class="btn btn-style" type="button" value="-">
+            </div>
+
+            <div>
+                <input class="btn" type="button" value="1">
+                <input class="btn" type="button" value="2">
+                <input class="btn" type="button" value="3">
+                <input class="btn btn-style" type="button" value="+">
+            </div>
+
+            <div>
+                <input class="btn" type="button" value="0">
+                <input class="btn" type="button" value=".">
+                <input class="btn" type="button" value="DEL">
+                <input class="btn" type="button" value="=" style="background-color: orange;">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
